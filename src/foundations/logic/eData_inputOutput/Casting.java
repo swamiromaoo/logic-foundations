@@ -13,11 +13,16 @@ public class Casting {
 
         String nStringTwo = "1234";
         Integer convertedNumber = Integer.parseInt(nStringTwo);
+        Double convertedNumberDouble = Double.parseDouble(nStringTwo);
+        Long convertedLong = Long.parseLong(nStringTwo);
+
+        Long numberLong = 15L;
+        String nStringLong = numberLong.toString();
 
         System.out.println(numberDouble);
         System.out.println(numberInt);
         System.out.println(numberInteger + " " + numberString);
-        System.out.println(nStringTwo + " " + convertedNumber);
+        System.out.println(nStringTwo + " " + convertedNumber +" "+ convertedNumberDouble + " " + convertedLong);
 
     }
 }
