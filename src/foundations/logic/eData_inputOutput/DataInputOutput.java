@@ -24,10 +24,7 @@ public class DataInputOutput {
         boolean job = scanner.nextBoolean();
 
 
-        System.out.println("\nName: " + name.toUpperCase());
-        System.out.println("Age: " + age);
-        System.out.println("Salary: " + salary);
-        System.out.println("Working: " + job);
+        System.out.println("\nName: " + name.toUpperCase() + "\nAge: " + age + "\nSalary: " + salary +  "\nWorking: " + job);
 
     }
 }
