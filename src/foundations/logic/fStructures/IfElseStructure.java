@@ -2,7 +2,7 @@ package foundations.logic.fStructures;
 
 public class IfElseStructure {
     public static void main(String[] args) {
-        int age = 38;
+//        int age = 38;
 //
 //        if (age >= 18) {
 //            System.out.println("You are of legal age!");
@@ -20,8 +20,8 @@ public class IfElseStructure {
 //            System.out.println("Let's stay at home");
 //        }
 
-        boolean thereIsMoney = true;
-        boolean itHasACard = false;
+        boolean thereIsMoney = false;
+        boolean itHasACard = true;
 
         if (thereIsMoney && itHasACard){
             System.out.println("Let's order food and beer!");
@@ -31,6 +31,15 @@ public class IfElseStructure {
         }else {
             System.out.println("Let's not order food!");
         }
+
+       String message = (thereIsMoney) ? "Let's just order food" : "Let's not order food";
+        System.out.println(message);
+        if (thereIsMoney){
+            System.out.println("Let's just order food");
+        }else {
+            System.out.println("Let's not order food");
+        }
     }
+
 
 }
