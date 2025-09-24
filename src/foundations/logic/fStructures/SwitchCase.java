@@ -11,6 +11,10 @@ public class SwitchCase {
 
         if (weekDays <= 7) {
             switch (weekDays) {
+                case 0:
+                    System.out.println("You can only between 1 and 7, do it again" +
+                            " \n-----------Thank You!-----------");
+                    break;
                 case 1:
                     System.out.println("Sunday");
                     break;
@@ -34,7 +38,8 @@ public class SwitchCase {
                     break;
             }
         } else {
-            System.out.println("You can only between 1 and 7, do it again \nThank You!");
+            System.out.println("You can only between 1 and 7, do it again " +
+                    "\n-----------Thank You!-----------");
         }
     }
 }
